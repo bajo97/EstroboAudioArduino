@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "l1//4xATjdc=",
+  "success": true,
+  "projectFilePath": "D:\\proyecto arduino y c# led control rgb\\EstroboAudioArduinoWF\\EstroboAudioArduinoWF\\EstroboAudioArduinoWF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hector\\.nuget\\packages\\argus.audio.naudio\\2023.11.15.1\\argus.audio.naudio.2023.11.15.1.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\ini-parser\\2.5.2\\ini-parser.2.5.2.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\naudio\\2.2.1\\naudio.2.2.1.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\naudio.asio\\2.2.1\\naudio.asio.2.2.1.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\naudio.core\\2.2.1\\naudio.core.2.2.1.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\naudio.lame\\2.1.0\\naudio.lame.2.1.0.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\naudio.midi\\2.2.1\\naudio.midi.2.2.1.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\naudio.wasapi\\2.2.1\\naudio.wasapi.2.2.1.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\naudio.winforms\\2.2.1\\naudio.winforms.2.2.1.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\naudio.winmm\\2.2.1\\naudio.winmm.2.2.1.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\9.0.4\\runtime.android-arm.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\9.0.4\\runtime.android-arm64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\9.0.4\\runtime.android-x64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\9.0.4\\runtime.android-x86.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\9.0.4\\runtime.linux-arm.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\9.0.4\\runtime.linux-arm64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\9.0.4\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\9.0.4\\runtime.linux-bionic-x64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\9.0.4\\runtime.linux-musl-arm.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\9.0.4\\runtime.linux-musl-arm64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\9.0.4\\runtime.linux-musl-x64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\9.0.4\\runtime.linux-x64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\9.0.4\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\9.0.4\\runtime.maccatalyst-x64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.native.system.io.ports\\9.0.4\\runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\9.0.4\\runtime.osx-arm64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\9.0.4\\runtime.osx-x64.runtime.native.system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\system.io.ports\\9.0.4\\system.io.ports.9.0.4.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Hector\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"ini-parser 2.5.2\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "ini-parser",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}
