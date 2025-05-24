@@ -1,0 +1,56 @@
+const int bassPin = 9;
+const int midPin = 10;
+const int treblePin = 11;
+
+int currentBass = 0;
+int currentMid = 0;
+int currentTreble = 0;
+
+int targetBass = 0;
+int targetMid = 0;
+int targetTreble = 0;
+
+unsigned long lastUpdate = 0;
+const unsigned long timeout = 1000; // Si pasa más de 1 segundo sin datos, se considera desconectado
+
+void setup() {
+  pinMode(bassPin, OUTPUT);
+  pinMode(midPin, OUTPUT);
+  pinMode(treblePin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // Leer datos si hay suficientes disponibles
+  if (Serial.available() >= 3) {
+    targetBass = Serial.read();
+    targetMid = Serial.read();
+    targetTreble = Serial.read();
+    lastUpdate = millis();
+  }
+
+  // Si no hay datos recientes, bajar el brillo poco a poco
+  if (millis() - lastUpdate > timeout) {
+    targetBass = max(0, targetBass - 4);
+    targetMid = max(0, targetMid - 4);
+    targetTreble = max(0, targetTreble - 4);
+  }
+
+  // Transiciones suaves
+  currentBass = smoothFade(currentBass, targetBass);
+  currentMid = smoothFade(currentMid, targetMid);
+  currentTreble = smoothFade(currentTreble, targetTreble);
+
+  analogWrite(bassPin, currentBass);
+  analogWrite(midPin, currentMid);
+  analogWrite(treblePin, currentTreble);
+
+  delay(15); // Suaviza el ciclo
+}
+
+int smoothFade(int current, int target) {
+  int step = 6;
+  if (current < target) return min(current + step, target);
+  if (current > target) return max(current - step, target);
+  return current;
+}
